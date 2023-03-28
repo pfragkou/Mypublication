@@ -484,7 +484,7 @@ jobs:
           at: /tmp/workspace
       - add_ssh_keys:
           fingerprints:
-            - "6d:07:6e:01:36:b0:89:1d:b2:93:6e:bf:86:a1:4d:61"
+            - "fa:10:17:15:b2:c2:8d:fc:b6:79:33:b0:ef:bf:b8:76"
       - run:
           name: Checkout target repo
           workdir: /tmp
@@ -616,6 +616,6 @@ workflows:
             - render-xsd-details
             - render-voc-rdf
       - create-artifact:
-          repository: git@github.com:SEMICeu/uri.semic.eu-generated.git
+          repository: git@github.com:pfragkou/MyGenRepo.git
           requires:
             - expand-links
