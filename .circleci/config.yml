@@ -80,8 +80,8 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "f6:36:5c:db:49:7b:19:94:e6:96:30:a6:f2:81:89:23"
-			      - "fa:10:17:15:b2:c2:8d:fc:b6:79:33:b0:ef:bf:b8:76"
-			      - "4a:f1:3a:fb:ab:83:40:65:68:19:69:da:98:92:86:ca"
+	    - "fa:10:17:15:b2:c2:8d:fc:b6:79:33:b0:ef:bf:b8:76"
+	    - "4a:f1:3a:fb:ab:83:40:65:68:19:69:da:98:92:86:ca"
       
       - run: $PWD/scripts/update_sshconfig.sh private1
       - run: $PWD/scripts/update_sshconfig.sh uri.semic.eu-thema
